@@ -1,0 +1,11 @@
+DesiredCapabilities dc = new DesiredCapabilities();
+			dc.setCapability("marionatte", false);
+				FirefoxOptions opt = new FirefoxOptions();
+					opt.merge(dc);
+
+	driver.close();
+
+		import org.openqa.selenium.firefox.FirefoxOptions;
+import org.openqa.selenium.remote.DesiredCapabilities;
+
+System.setProperty("Webdriver.gecko.driver","C:\\Users\\user\\workspace\\Seleniumver2.0\\geckodriver.exe");
